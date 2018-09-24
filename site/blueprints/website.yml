@@ -1,0 +1,49 @@
+title: Website
+
+files:
+  sortable: true
+
+pages: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+    width: 1
+
+  year:
+    label: Year
+    type:  text
+    width: 1/4
+
+  country:
+    label: Country
+    type:  text
+    width: 1/4
+
+  sitetype:
+    label: Type
+    type:  tags
+    lower: true
+    index: all
+    width: 1
+
+  sitestyle:
+    label: Style
+    type:  tags
+    lower: true
+    index: all
+    width: 1
+
+  sitebehavior:
+    label: Behavior
+    type:  tags
+    lower: true
+    index: all
+    width: 1
+
+
+
+  text:
+    label: Description
+    type:  textarea
